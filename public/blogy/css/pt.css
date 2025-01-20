@@ -1,0 +1,33 @@
+.menu-large a {
+    font-size: 100px; 
+    padding: 10px 15px; 
+}
+
+.menu-large li {
+    display: inline-block; 
+    margin-right: 15px; 
+}
+.author-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel {
+    margin-top: 20px;
+}
+.like-share-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.like-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+

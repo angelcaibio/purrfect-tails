@@ -1,0 +1,33 @@
+
+/* Logo Styles */
+.logo-name {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.logo-wrapper {
+    width: 200px; 
+    margin: 0 auto; 
+}
+
+
+/* Responsive Logo */
+@media (max-width: 768px) {
+    .logo-wrapper {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-wrapper {
+        width: 100px; 
+    }
+}
+
+
+.dropzone .dz-remove {
+    display: none; 
+}
+
